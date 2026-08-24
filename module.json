@@ -1,0 +1,47 @@
+{
+    "id": "dragonbane-ko",
+    "title": "Dragonbane Korean translation",
+    "description": "Dragonbane / Drakar och Demoner 시스템 한국어 번역 모듈. 시스템 UI 라벨 전량(630키)과 시스템 동봉 어드벤처 컴펜디움(소개 일지·능력치 매크로)을 한국어화합니다. 컴펜디움 번역에는 Babele 모듈이 필요합니다.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "14"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dragonbane",
+                "type": "system",
+                "compatibility": {}
+            }
+        ],
+        "requires": [
+            {
+                "id": "babele",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
+    },
+    "scripts": [
+        "scripts/main.js"
+    ],
+    "languages": [
+        {
+            "lang": "ko",
+            "path": "i18n/systems/dragonbane.json",
+            "system": "dragonbane"
+        }
+    ],
+    "authors": [
+        {
+            "name": "세피 (네이버 TRPG 카페 Sepi)",
+            "url": "https://github.com/sepi-toolbox",
+            "flags": {}
+        }
+    ],
+    "url": "https://github.com/sepi-toolbox/dragonbane-ko",
+    "manifest": "https://github.com/sepi-toolbox/dragonbane-ko/releases/latest/download/module.json",
+    "download": "https://github.com/sepi-toolbox/dragonbane-ko/releases/latest/download/module.zip"
+}
