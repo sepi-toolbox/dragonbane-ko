@@ -2,7 +2,7 @@
     "id": "dragonbane-ko",
     "title": "Dragonbane Korean translation",
     "description": "Dragonbane / Drakar och Demoner 시스템 한국어 번역 모듈. 시스템 UI 라벨 전량(630키)과 시스템 동봉 어드벤처 컴펜디움(소개 일지·능력치 매크로)을 한국어화합니다. 컴펜디움 번역에는 Babele 모듈이 필요합니다.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT",
     "compatibility": {
         "minimum": "13",
